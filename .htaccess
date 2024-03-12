@@ -1,0 +1,12 @@
+DirectoryIndex app/home.php
+RewriteEngine On
+
+#changeProject
+RewriteRule ^home /project/app/home.php [L]
+RewriteRule ^contact /project/app/contact.php [L]
+RewriteRule ^service /project/app/service.php [L]
+RewriteRule ^team /project/app/team.php [L]
+RewriteRule ^about /project/app/about.php [L]
+RewriteRule ^blog /project/app/blog.php [L]
+RewriteRule ^demo /project/app/demo.php [L]
+
