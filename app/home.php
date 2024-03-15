@@ -15,7 +15,7 @@ home
 <?php
    include_once("../include/footer.php");
     }else {
-        header("location: ../");
+        header("location: ".base_url1("home"));
     }
 ?>
 

@@ -1,12 +1,10 @@
 <?php
     include_once("../connect/base_url.php");
     if ($localhost.$_SERVER['REQUEST_URI']==base_url1($title_url)) {
-        if (isset($_SESSION["admin"][md5("admin_create")])) {
-            # code...
-        
+        session_start();
+        if (!isset($_SESSION["admin"][md5("admin_create")])) {        
         include_once("../include/header.php");
-        include_once("../include/header_main.php");
-        
+        include_once("../include/header_main.php");       
 
 ?>
 
@@ -52,10 +50,10 @@
 <?php
    include_once("../include/footer.php");
     }else {
-        header("location: ".base_url1('admin_ok'));
+        header("location: ".base_url1('admin_ok'));        
     }
     }else {
-        header("location: ".base_url1($home));
+        header("location: ".base_url1('home'));
     }
 ?>
 

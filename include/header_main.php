@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/site_responsive.css">
 <link rel="icon" type="image/x-icon" href="<?php base_url('assets/icons/logo-01.svg') ?>">
 
 </head>
@@ -27,7 +28,24 @@
                 </div>
                 <ul class="main_menu">
                     <li><a href="<?php base_url('home')?>">Home</a></li>
-                    <li><a href="<?php base_url('service')?>">Services</a></li>
+                    <li><a href="<?php base_url('service')?>">Services</a>
+                        <div class="drop_menu">
+                            <ul class="drop-down">
+                                <li><a href="website">Website</a>
+                                    <div class="drop_menu">
+                                        <ul class="drop-down">
+                                            <li><a href="web-design">Web Design</a></li>
+                                            <li><a href="">Web Development</a></li>                                            
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="graphics">Graphics</a></li>
+                                <li><a href="seo">SEO</a></li>
+                                <li><a href="digital-marketing">Digital Marketing</a></li>
+                                <li><a href="b2b-lead">B2B Lead Colocation</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a class="dorp_down_a" href='<?php base_url('team')?>'>Team</a>
                     </li>
                     <li><a href="<?php base_url('about')?>">About</a></li>

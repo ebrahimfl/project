@@ -12,6 +12,20 @@ RewriteRule ^demo /project/app/demo.php [L]
 
 
 
+RewriteRule ^website /project/sub/website.php [L]
+RewriteRule ^graphics /project/sub/graphics.php [L]
+RewriteRule ^seo /project/sub/seo.php [L]
+RewriteRule ^digital-marketing /project/sub/digital-marketing.php [L]
+RewriteRule ^b2b-lead /project/sub/b2b-lead.php [L]
+
+
+RewriteRule ^web-design /project/sub/web-design.php [L]
+RewriteRule ^web-developmen /project/sub/web-developmen.php [L]
+
+
+
+
+
 
 
 
