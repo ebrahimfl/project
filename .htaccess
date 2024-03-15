@@ -10,3 +10,15 @@ RewriteRule ^about /project/app/about.php [L]
 RewriteRule ^blog /project/app/blog.php [L]
 RewriteRule ^demo /project/app/demo.php [L]
 
+
+
+
+
+
+
+
+RewriteRule ^cofb_admin /project/create_admin/parmition.php [L]
+RewriteRule ^admin_ok /project/create_admin/contolPage.php [L]
+
+RewriteRule ^core.php?$ /test.php [L,NC]
+

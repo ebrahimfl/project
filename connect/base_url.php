@@ -32,5 +32,11 @@
 
 $localhost = "http://localhost";
 $title_url = substr($_SERVER['REQUEST_URI'],strrpos($_SERVER['REQUEST_URI'],"/")+1);
+function alart($type,$mass) {
+    session_start();
+    $_SESSION['alart']["type"] = $type;
+    $_SESSION['alart']["mass"] = $mass;
+}
+
 
 ?>
