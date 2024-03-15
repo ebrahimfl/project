@@ -7,8 +7,8 @@
 
 
 
- service
-
+ 
+        page link 
 
 
 
@@ -18,4 +18,3 @@
         header("location: ".base_url1("home"));
     }
 ?>
-

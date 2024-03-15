@@ -11,7 +11,7 @@
             </div>
             <div class="footer_col">
                 <ul>
-                    <li><a href="<?php base_url('loginSign.php?log=ourproject')?>" class="footer_h_a">Page</a></li>
+                    <li><a href="<?php base_url('page')?>" class="footer_h_a">Page</a></li>
                     <li><a href="<?php base_url('loginSign.php?log=mostpopularservices')?>">Most Popular Services</a></li>
                     <li><a href="<?php base_url('loginSign.php?log=figmaDesign')?>">Figma Design</a></li>
                     <li><a href="<?php base_url('loginSign.php?log=htmlTemplate')?>">HTML Template</a></li>

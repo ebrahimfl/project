@@ -24,7 +24,7 @@ RewriteRule ^web-developmen /project/sub/web-developmen.php [L]
 
 
 
-
+RewriteRule ^page /project/sub/page.php [L]
 
 
 
